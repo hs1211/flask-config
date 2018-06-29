@@ -2,6 +2,12 @@
 Flask Configuration
 ===================
 
+From this https://damyanon.net/post/flask-series-configuration/ series, I make enhanced version config management in flask.
+Whole project structure is so nice in my opinion. The structure is like following.
+
+
+
+
 
 How to setup this project?
 --------------------------

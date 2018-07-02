@@ -61,7 +61,7 @@ def configure_app(app):
     time_handler.setLevel(app.config['LOGGING_LEVEL'])
     formatter = logging.Formatter(app.config['ACCESS_LOGGING_FORMAT'])
     time_handler.setFormatter(formatter)
-    logging.getLogger('uwsgi').addHandler(time_handler);
+    logging.getLogger('werkzeug').addHandler(time_handler);
 
 
 def mkdir(log_path):
